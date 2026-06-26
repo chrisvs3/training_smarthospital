@@ -12,7 +12,7 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
     html, body, [class*="css"] {font-family: 'Black Ops One'}
-    
+    #MainMenu {visibility: hidden;}
     header[data-testid="stHeader"] {display:none;}
     .stDeployButton { display: none; }
     footer { visibility: hidden; }
